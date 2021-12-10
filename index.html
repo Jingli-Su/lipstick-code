@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>唇色密码</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <script src="lib/echarts.js"></script>
+  <script src="lib/tinycolor-min.js"></script>
+  <script src="lib/zepto.min.js"></script>
+  <script src="lib/zrender.min.js"></script>
+
+  <!-- =======================================================
+  * Template Name: Personal - v4.7.0
+  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= 首页 ======= -->
+  <header id="header">
+    <div class="container">
+
+      <h1><a href="index.html">2208只口红背后的唇色密码</a></h1>
+      <h2>穿越时空，你说的「 红 」是什么红？</h2>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link active" href="#header">首页</a></li>
+          <li><a class="nav-link" href="#about">地区对比</a></li>
+          <li><a class="nav-link" href="#resume">季节偏好</a></li>
+          <li><a class="nav-link" href="#services">色号命名</a></li>
+          <li><a class="nav-link" href="#portfolio">热门色系</a></li>
+          <li><a class="nav-link" href="#contact">结语</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= 地区对比 Section ======= -->
+  <section id="about" class="about">
+    <div class="about-me container">
+      <!--步骤2：准备容器-->
+      <div id="scatter_chart" style="width: 1200px;height: 400px"></div>
+      <script src="index.js"></script>
+      <div class="row gx-5 align-items-center">
+         <div class="col-lg-15 order-lg-3">
+           <div class="p-5">
+             <div style="font-size:20px">
+             <div style="color:#000000">
+               <p>我们统计了欧美、中国、日韩、东南亚四个地区20个品牌的口红，得到2208个口红色号，将其RGB数值转换为HSV（色相-饱和度-亮度）数值进行颜色分析。</p>
+               <br/>
+               <p>从色相和饱和度的分布来看，欧美品牌的口红色域分布最广，口红未必是红色，还可以是黄色、紫色、蓝色甚至黑色。国产口红则相对集中，以红棕色系为主。日韩品牌的口红饱和度偏低，更偏好红粉色系。东南亚口红饱和度偏高，“吃土色”盛行的同时也不乏跳脱的颜色。</p>
+               <br/>
+               <p>口红色谱的地区差异，体现了不同文化观念、人种肤色的审美偏好。如果你看过李佳琦的口红带货直播，一定对“黄皮必买”的话术不陌生。“黄皮”的“黄”，指的是皮肤的色相，也就是我们常说的皮肤冷暖。而所谓的“黄皮专属色号”，指的是某种口红色号能中和偏黄偏暗的肤色，带来“好气色”的错觉。</p>
+               <br/>
+               <p>根据“补色残像”这个经典生理错视原理，当我们一直盯着一种颜色看，视神经受到刺激就会诱发出这种颜色的补色，进行自我调节。因此，当“黄皮”涂上暖色调的口红，视觉上就会在嘴唇四周形成一个冷色调的“补色残像”，看上去像是拥有了白净的好气色。</p>
+               <br/>
+               <p>因此，在东方“以白为美”的社会审美下，国产口红和日韩品牌的口红都偏爱红色系，对“白瘦幼”的追求则会让低饱和、粉色系的口红大行其道。而在主张多元审美的欧美市场，口红的颜色则百花齐放，东南亚地区的口红品牌，更是“吃土”色系的代言人。</p>
+               <br/>
+               <p>不过，所谓的“红棕色口红显白”，也只是一个大致的原理。实际上脸不仅受到肤色冷暖影响，也会受到肤色的明度、唇色本身的影响，单纯因为“黄皮必买”的洗脑式营销就疯狂“剁手”，很有可能在上嘴的那一刻失望。</p>
+             </div>
+             </div>
+           </div>
+         </div>
+      </div>
+    </div>
+  </section><!-- End  -->
+
+  <!-- ======= 季节偏好 Section ======= -->
+  <section id="resume" class="resume">
+     <div class="container px-10">
+       <div align="center">
+          <div class="col-lg-9 order-lg-3">
+                        <div class="p-10"><img class="img-fluid" src="assets/img/季节.jpg" alt="" /></div>
+          </div>
+       </div>
+       <div class="row gx-5 align-items-center">
+         <div class="col-lg-15 order-lg-3">
+           <div class="p-5">
+             <div style="font-size:20px">
+             <div style="color:#000000">
+               <p>除了空间分布的差异，口红色号在不同时令也有迥异的变化。我们在所有口红产品中找到55个标注季节限定款的口红，发现和春夏款相比，秋冬款口红的饱和度更高、颜色集中在红棕色系。而春夏款口红的饱和度普遍低于60%，色域分布更广泛。</p>
+               <br/>
+               <p>夏花绚烂，秋叶静美，季节的轮回变化不仅改变自然形态，也影响着人们的审美倾向。春天万物复苏，低饱和、大跨度的口红颜色同生机勃勃的自然界一样轻盈活泼；冬日万物静默，一抹高饱和的亮色，在视觉上显得明艳，也让人在灰暗萧瑟的冬季里不再那么清冷。</p>
+               <br/>
+               <p>色彩之中，凝结着人们对节气物候变化的共鸣。选对和季节相匹配的口红色系，或许就离实现美妆博主口中的“氛围感”不远了。</p>
+             </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+
+  </section><!-- End Resume Section -->
+
+  <!-- ======= 色号命名 Section ======= -->
+  <section id="services" class="services">
+    <div class="container px-10">
+      <div class="row gx-5 align-items-center">
+         <div class="col-lg-15 order-lg-3">
+           <div class="p-5">
+             <div style="font-size:20px">
+             <div style="color:#000000">
+               <p>口红颜色的时空分布呈现一定的规律性，口红色号的命名也大有学问。</p>
+               <br/>
+               <p>这年头，用热门色号暗示男朋友送礼的套路已经行不通了。因为同一个热门色号，可能对应不同的口红产品，甚至连颜色都有所区别。</p>
+             </div>
+             </div>
+           </div>
+         </div>
+      </div>
+       <div align="center">
+          <div class="col-lg-9 order-lg-3">
+                        <div class="p-10"><img class="img-fluid" src="assets/img/命名1.jpg" alt="" /></div>
+          </div>
+       </div>
+       <div class="row gx-5 align-items-center">
+         <div class="col-lg-15 order-lg-3">
+           <div class="p-5">
+             <div style="font-size:20px">
+             <div style="color:#000000">
+               <p>我们从统计的欧美口红品牌中，找到同一品牌、不同系列产品里出现同一色号（名称/数字）、不同口红颜色的49款口红。其中，Armani（阿玛尼）作为一线奢侈品牌，在开发热门色号方面也一马当先，色号“Four Hundred 400”作为具有代表性的“阿玛尼色”，实际上有六个颜色。</p>
+               <br/>
+               <p>大数据告诉我们，分不清热门色号的颜色，真不是直男的锅。</p>
+               <br/>
+               <p>从“阿玛尼400”到“YSL1966”“M·A·C chili”，热门口红色号不仅能带火一个产品，也为品牌找到财富密码，把同一个色号应用在不同系列的产品中，不必花功夫营销，就有无数“自来水”粉丝为其买单。</p>
+             </div>
+             </div>
+           </div>
+         </div>
+       </div>
+      <div align="center">
+          <div class="col-lg-9 order-lg-3">
+                        <div class="p-10"><img class="img-fluid" src="assets/img/命名2.jpg" alt="" /></div>
+          </div>
+      </div>
+      <div class="row gx-5 align-items-center">
+         <div class="col-lg-15 order-lg-3">
+           <div class="p-5">
+             <div style="font-size:20px">
+             <div style="color:#000000">
+               <p>从各大品牌口红在中国官网的命名来看，饮品、蔬果、食品类概念最受欢迎。自从喜茶带火“芋泥波波奶茶”之后，“焦糖”“奶油”“杏仁”等一系列奶茶配料也迅速加入了口红的命名语料库，口红色号列表里的“奶茶含量”堪比饮品连锁店的菜单。</p>
+               <br/>
+               <p>此外，时间、地点等意象和意境类形容词结合，就能轻松打造“纯欲风”。以M·A·C中国官网在售的挚爱柔缎液体唇膏为例，“沦陷摩洛哥”“赤裸爱慕”“猩红迷恋”“禁忌橘红”“绯红耳语”等命名，彻底拿捏了口红色号命名的魅惑感。</p>
+               <br/>
+               <p>以花西子为代表的国货美妆品牌，则为口红产品的命名增添了国风的色彩。从“琥珀”“红木”到“胭脂”“朱砂”，东方元素的概念为口红注入了民族情怀。</p>
+               <br/>
+               <p>总而言之，当我们精心挑选口红色号时，不止是在为色彩买单，更是在消费它背后的营销概念。</p>
+             </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+  </section><!-- End Services Section -->
+
+  <!-- ======= 热门色系 Section ======= -->
+  <section id="portfolio" class="portfolio">
+    <div class="container px-10">
+      <div align="center">
+          <div class="col-lg-9 order-lg-3">
+                        <div class="p-10"><img class="img-fluid" src="assets/img/热门.jpg" alt="" /></div>
+          </div>
+      </div>
+      <div class="row gx-5 align-items-center">
+         <div class="col-lg-15 order-lg-3">
+           <div class="p-5">
+             <div style="font-size:20px">
+             <div style="color:#000000">
+               <p>每一年都不缺热门的口红色系，在四五年前，韩剧在中国女孩中有很大的影响力，每一次韩剧的爆火都伴随着女主口红色系的流行，从《来自星星的你》里的“想你色”荧光粉，到《太阳的后裔》里的珊瑚红，那个时候很多女生的化妆包里都有一个「芭比粉」的口红。有趣的是，在当时爆火的荧光粉色系现在却被戏称为“死亡芭比粉”，成为显黄显黑的典型色系。年轻人对于口红色系的认知在不断变化，流行的口红色系不断在更新迭代。</p>
+               <br/>
+               <p>从几乎与大表姐刘雯绑定的豆沙色雅诗兰黛420，到奶茶色的代表色兰蔻274，再到前两年爆火直到现在依然畅销的番茄色阿玛尼405。口红商们执着于开发生产新的色系，“掏空”猪猪女孩们的钱包。直男眼中的红色可能是豆沙色、番茄色或浆果色，粉色可能是蜜桃色或奶茶色，橙色可能是焦糖色或胡萝卜色，更不要说连正红色都分为蓝调正红、橘调正红和紫调正红等等。迪奥999作为正红色的代表，从1953年诞生至今人气一直居高不下，是很多女孩入手的第一支口红，也是送人不会出错的口红之一。</p>
+               <br/>
+               <p>当今的口红色系呈现出较之前几年更为多元的态势，年轻人不再拘泥于某个特定颜色的口红，选择口红时的诉求也不再桎梏于单一的显白或是提气色，热门口红色系呈现出向自然、个性化拓展的趋势，口红色系的类型较之前也更为细分，新的色系品类不断产生，最好看的口红永远是下一只。</p>
+             </div>
+             </div>
+           </div>
+         </div>
+       </div>
+    </div>
+
+  </section><!-- end Section -->
+
+  <!-- ======= 结语 Section ======= -->
+  <section id="contact" class="contact">
+    <div class="container px-10">
+      <div class="row gx-5 align-items-center">
+         <div class="col-lg-15 order-lg-3">
+           <div class="p-5">
+             <div style="font-size:20px">
+             <div style="color:#000000">
+               <h2 class="display-4">结语</h2>
+               <br/>
+               <p>我们为什么永远缺一只口红，除了诸如唇釉、唇蜜、唇泥、唇霜等口红质地的更新外，商家对H、S、V任何一个数值的微小变动都是在向消费者提出一次无声的建议：也许这只口红会更适合你。我们可能永远也找不到这根最合适的口红，因为色彩是无穷无尽的，永远会有下一只。</p>
+             </div>
+             </div>
+           </div>
+         </div>
+         <div class="col-lg-15 order-lg-3">
+           <div class="p-5">
+             <div style="font-size:15px">
+             <div style="color:#000000">
+               <p>数据说明</p>
+               <p>①选取欧美、中国、日韩、东南亚四个地区的本土知名口红品牌各五家，利用python3.7统计本土官网当下在售的所有口红产品（包括唇膏、唇釉、唇泥等各种质地），提取产品名称、产品色号、是否为热卖色、季节性（如“春夏新色”“秋冬限定”）等维度信息，统计时间截至2021年11月21日。</p>
+               <br/>
+               <p>②分地区选取的20个口红品牌分别为Amarni、YSL、NARS、M·A·C、Revlon、完美日记、橘朵、花西子、Hedone、INTO YOU、3CE、梦妆、倩丽、CANMAKE、ROMAND、zenn、mistine、4U2、2p original、sunnyface。</p>
+               <br/>
+               <p>③颜色分析方法:通过python的PIL的Image包，对图片中的口红色号进行颜色提取并转换为16进制格式，对图表进行上色。使用python的colorsys包，将色彩表示为hsv格式，选取h和v作为可视化维度。</p>
+             </div>
+             </div>
+           </div>
+         </div>
+      </div>
+    </div>
+  </section><!-- End Contact Section -->
+
+  <div class="credits">
+    <!-- All the links in the footer should remain intact. -->
+    <!-- You can delete the links only if you purchased the pro version. -->
+    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
